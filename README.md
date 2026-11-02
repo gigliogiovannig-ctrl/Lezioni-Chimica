@@ -13,34 +13,30 @@ ripetizioni-chimica/
 ├── img/
 │   ├── og-image.png        ← anteprima quando condividi il link (WhatsApp, Instagram, Facebook…)
 │   ├── apple-touch-icon.png
-│   ├── giovanni.svg        ← foto segnaposto
+│   ├── giovanni.jpg        ← foto della sezione "Chi sono"
 │   └── hex-pattern.svg
 └── tools/              ← script OPZIONALI per rigenerare QR e immagini (non servono al sito)
 ```
 
 ---
 
-## 1. Prima di pubblicare: personalizza
+## 1. Personalizzazione
 
 ### Numero WhatsApp ed email
-Apri `script.js` e modifica le prime righe:
+Sono nelle prime righe di `script.js`:
 
 ```js
 const CONFIG = {
-  WHATSAPP_NUMBER: "393331234567",   // +39 333 123 4567 → solo cifre, con prefisso 39, senza "+"
-  EMAIL: "tuaemail@example.com",
+  WHATSAPP_NUMBER: "393387855476",   // solo cifre, con prefisso 39, senza "+"
+  EMAIL: "gigliogiovanni.g@gmail.com",
   EMAIL_SUBJECT: "Richiesta ripetizioni di chimica",
 };
 ```
 
 Tutti i pulsanti WhatsApp (hero, prezzi, quiz, bottone fluttuante, form) usano questi valori.
 
-### La tua foto
-Metti una foto quadrata (circa 600×600 px, JPG, < 150 KB) in `img/giovanni.jpg`, poi in `index.html` cambia:
-
-```html
-<img src="img/giovanni.svg" ...>   →   <img src="img/giovanni.jpg" ...>
-```
+### La foto
+Per cambiarla, sostituisci `img/giovanni.jpg` con un'altra foto quadrata (circa 600×600 px, < 150 KB) con lo stesso nome.
 
 ### I quiz
 Le domande sono nell'array `QUIZ` in `script.js`: puoi modificarle o aggiungerne altre (`correct` è l'indice della risposta giusta: 0, 1 o 2).

@@ -32,7 +32,10 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@600;700;800&display=swap">
+  <!-- Font caricati senza bloccare il primo rendering -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@600;700;800&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@600;700;800&display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@600;700;800&display=swap"></noscript>
   <link rel="stylesheet" href="styles.css">
 
   <!-- Imposta il tema prima del rendering per evitare il "flash" -->
@@ -68,7 +71,7 @@
 
   <header class="site-header" id="top">
     <div class="container header-inner">
-      <a href="#top" class="logo" aria-label="Ripetizioni di Chimica, torna all'inizio">
+      <a href="#top" class="logo" aria-label="Chimica con Giovanni, torna all'inizio">
         <svg class="logo-mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3 27 9.5v13L16 29 5 22.5v-13z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/><circle cx="16" cy="16" r="4" fill="currentColor"/></svg>
         <span>Chimica <strong>con Giovanni</strong></span>
       </a>
@@ -194,8 +197,8 @@
             <p class="price"><span class="price-num">15 €</span><span class="price-unit">/ora</span></p>
             <ul class="checks">
               <li>In presenza oppure online</li>
-              <li>Esercizi e materiale inclusi</li>
-              <li>Supporto via WhatsApp tra una lezione e l'altra</li>
+              <li>Superiori, università e semestre filtro</li>
+              <li>Percorso costruito sulle tue esigenze</li>
             </ul>
             <a class="btn btn-primary js-wa" data-wa-text="Ciao Giovanni! Vorrei informazioni sulle lezioni individuali di chimica." href="#contatti">Prenota</a>
           </div>

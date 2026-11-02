@@ -52,7 +52,7 @@ const QUIZ = [
     ],
     correct: 2,
     explain:
-      "Una goccia pesa circa 0,05 g. Diviso per la massa molare dell'acqua (18 g/mol) fa ~0,0028 mol; moltiplicato per il numero di Avogadro (6,02 × 10²³) dà ~1,7 × 10²¹ molecole. Più delle stelle stimate nella nostra galassia, di circa 10 miliardi di volte. Questa è la stechiometria!",
+      "Una goccia pesa circa 0,05 g. Diviso per la massa molare dell'acqua (18 g/mol) fa ~0,0028 mol; moltiplicato per il numero di Avogadro (6,02 × 10²³) dà ~1,7 × 10²¹ molecole. Miliardi di volte più delle stelle della nostra galassia. Questa è la stechiometria!",
   },
   {
     tag: "Corpo umano",
