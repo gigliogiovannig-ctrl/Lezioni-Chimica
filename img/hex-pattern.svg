@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 104">
+  <!-- Motivo esagonale (anelli benzenici) per lo sfondo dell'hero -->
+  <g fill="none" stroke="#2a8fb5" stroke-opacity=".11" stroke-width="1.4">
+    <path d="M30 2 56 17v30L30 62 4 47V17z"/>
+    <path d="M90 54l26 15v30L90 114 64 99V69z"/>
+    <path d="M90-50l26 15v30L90 10 64-5v-30z"/>
+    <path d="M56 17h8M56 47l8 22M4 47l-8 22"/>
+    <circle cx="30" cy="32" r="9"/>
+  </g>
+</svg>

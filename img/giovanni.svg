@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Foto segnaposto">
+  <!-- Segnaposto: sostituisci con una tua foto (vedi README) -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#dbeafe"/>
+      <stop offset="1" stop-color="#ccfbf1"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <circle cx="300" cy="235" r="105" fill="#0b3a75" opacity=".85"/>
+  <path d="M110 600c0-120 85-200 190-200s190 80 190 200z" fill="#0b3a75" opacity=".85"/>
+  <text x="300" y="560" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" fill="#ffffff" opacity=".9">La tua foto qui</text>
+</svg>
