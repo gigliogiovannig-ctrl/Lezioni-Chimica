@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071a2e"/>
+      <stop offset=".6" stop-color="#0b3a75"/>
+      <stop offset="1" stop-color="#0a7f7a"/>
+    </linearGradient>
+    <linearGradient id="t" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7fb2ff"/>
+      <stop offset="1" stop-color="#2dd4bf"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- molecole decorative -->
+  <g fill="none" stroke="#2dd4bf" stroke-opacity=".28" stroke-width="5" stroke-linejoin="round">
+    <path d="M1010 70l75 43v87l-75 43-75-43v-87z"/>
+    <path d="M1085 200l75 43v87l-75 43-75-43v-87z"/>
+    <path d="M935 200l-75 43"/>
+    <path d="M1085 373v80"/>
+  </g>
+  <g fill="#2dd4bf" fill-opacity=".5">
+    <circle cx="860" cy="243" r="14"/><circle cx="1085" cy="453" r="14"/>
+  </g>
+  <circle cx="1010" cy="157" r="30" fill="none" stroke="#7fb2ff" stroke-opacity=".35" stroke-width="5"/>
+
+  <text x="80" y="118" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="4" fill="#2dd4bf">RIPETIZIONI DI CHIMICA</text>
+  <text font-family="Segoe UI, Arial, sans-serif" font-weight="800" fill="#ffffff" font-size="64">
+    <tspan x="80" y="215">La chimica non è difficile,</tspan>
+  </text>
+  <text font-family="Segoe UI, Arial, sans-serif" font-weight="800" fill="url(#t)" font-size="64">
+    <tspan x="80" y="295">ti manca solo qualcuno</tspan>
+    <tspan x="80" y="375">che te la spieghi bene.</tspan>
+  </text>
+
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="600">
+    <rect x="80" y="440" width="190" height="64" rx="32" fill="#ffffff" fill-opacity=".12" stroke="#ffffff" stroke-opacity=".3"/>
+    <text x="175" y="482" text-anchor="middle" fill="#fff">15 €/ora</text>
+    <rect x="288" y="440" width="340" height="64" rx="32" fill="#1fa855"/>
+    <text x="458" y="482" text-anchor="middle" fill="#fff">1ª lezione gratuita</text>
+    <rect x="646" y="440" width="300" height="64" rx="32" fill="#ffffff" fill-opacity=".12" stroke="#ffffff" stroke-opacity=".3"/>
+    <text x="796" y="482" text-anchor="middle" fill="#fff">Presenza · Online</text>
+  </g>
+
+  <text x="80" y="568" font-family="Segoe UI, Arial, sans-serif" font-size="28" fill="#cfe0f1">Giovanni Giglio · Chimica Magistrale 110/110 · Superiori · Università · Semestre filtro</text>
+</svg>

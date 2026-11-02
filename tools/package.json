@@ -1,0 +1,13 @@
+{
+  "name": "ripetizioni-chimica-tools",
+  "private": true,
+  "type": "module",
+  "description": "Script opzionali per rigenerare QR code e immagini. Il sito non ha bisogno di build.",
+  "scripts": {
+    "asset": "node genera-asset.mjs"
+  },
+  "dependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "qrcode": "^1.5.4"
+  }
+}
